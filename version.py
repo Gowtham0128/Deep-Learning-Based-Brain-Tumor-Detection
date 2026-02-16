@@ -1,8 +1,9 @@
-"""
-Expose version
-"""
+from keras.src.api_export import keras_export
 
-from __future__ import annotations
+# Unique source of truth for the version number.
+__version__ = "3.11.3"
 
-__version__ = "3.4.3"
-VERSION = __version__.split(".")
+
+@keras_export("keras.version")
+def version():
+    return __version__

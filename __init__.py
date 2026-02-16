@@ -1,10 +1,8 @@
-# Protocol Buffers - Google's data interchange format
-# Copyright 2008 Google Inc.  All rights reserved.
-#
-# Use of this source code is governed by a BSD-style
-# license that can be found in the LICENSE file or at
-# https://developers.google.com/open-source/licenses/bsd
+import logging
+from fontTools.misc.loggingTools import configLogger
 
-# Copyright 2007 Google Inc. All Rights Reserved.
+log = logging.getLogger(__name__)
 
-__version__ = '6.32.1'
+version = __version__ = "4.60.1"
+
+__all__ = ["version", "log", "configLogger"]

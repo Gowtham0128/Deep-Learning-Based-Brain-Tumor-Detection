@@ -1,1 +1,1 @@
-astunparse
+charset_normalizer

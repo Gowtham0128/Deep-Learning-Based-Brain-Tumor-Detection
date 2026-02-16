@@ -5,6 +5,3 @@
 # license that can be found in the LICENSE file or at
 # https://developers.google.com/open-source/licenses/bsd
 
-# Copyright 2007 Google Inc. All Rights Reserved.
-
-__version__ = '6.32.1'

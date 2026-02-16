@@ -1,0 +1,10 @@
+opencv-python
+numpy
+Pillow
+ImageHash
+tensorflow
+keras
+imageio
+scikit-image
+matplotlib
+pandas
